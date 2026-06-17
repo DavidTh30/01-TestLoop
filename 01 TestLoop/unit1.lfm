@@ -1,0 +1,93 @@
+object Form1: TForm1
+  Left = 503
+  Height = 144
+  Top = 92
+  Width = 439
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Tutorials 1: Test function loop'
+  ClientHeight = 144
+  ClientWidth = 439
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poWorkAreaCenter
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 35
+    Caption = 'Status:'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 40
+    Top = 32
+    Width = 97
+    Caption = 'Start Loop'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 240
+    Height = 40
+    Top = 72
+    Width = 96
+    Caption = '50 Frame'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 336
+    Height = 40
+    Top = 72
+    Width = 96
+    Caption = '35 Frame'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 144
+    Height = 40
+    Top = 72
+    Width = 97
+    Caption = 'Stop'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 240
+    Height = 40
+    Top = 32
+    Width = 96
+    Caption = '75 Frame'
+    TabOrder = 4
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 336
+    Height = 40
+    Top = 32
+    Width = 96
+    Caption = '10 Frame'
+    TabOrder = 5
+    OnClick = Button6Click
+  end
+  object Label2: TLabel
+    Left = 208
+    Height = 16
+    Top = 7
+    Width = 185
+    Caption = 'Tutorials 1: Test function loop'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
